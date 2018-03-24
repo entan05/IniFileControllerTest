@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kei.inifilecontrollertest.MainActivity">
+
+    <Button
+        android:id="@+id/btn_loadSample"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/load_sample"
+        android:enabled="false"/>
+
+    <Button
+        android:id="@+id/btn_writeSample"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_loadSample"
+        android:text="@string/write_sample"
+        android:enabled="false"/>
+
+</RelativeLayout>
